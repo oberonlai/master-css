@@ -1,0 +1,16 @@
+{
+    "name": "oberonlai/twpress",
+    "description": "Tailwindcss Play CDN for WordPress",
+    "type": "library",
+    "require": {
+        "a7/autoload": "^2.1",
+        "oberonlai/wp-option": "^1.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "oberonlai",
+            "email": "m615926@gmail.com"
+        }
+    ]
+}
