@@ -4,8 +4,8 @@
  * Master CSS
  *
  * @link              https://oberonlai.blog
- * @since             0.0.2
- * @package           TWP
+ * @since             0.0.3
+ * @package           MSC
  *
  * @wordpress-plugin
  * Plugin Name:       Master CSS
@@ -22,7 +22,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'MSC_VERSION', '0.0.2' );
+define( 'MSC_VERSION', '0.0.3' );
 define( 'MSC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'MSC_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MSC_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
@@ -32,3 +32,11 @@ define( 'MSC_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
  */
 require_once MSC_PLUGIN_DIR . 'vendor/autoload.php';
 \A7\autoload( MSC_PLUGIN_DIR . 'src' );
+
+/**
+ * i18n
+ */
+add_action( 'plugin_loaded', 'msc_load_plugin_i18n' );
+function msc_load_plugin_i18n() {
+	load_plugin_textdomain( 'msc', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+}

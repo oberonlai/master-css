@@ -1,0 +1,137 @@
+# Copyright (C) 2022 Oberon Lai
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Master CSS 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/master-css\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-03T02:25:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: msc\n"
+
+#. Plugin Name of the plugin
+#: src/Options.php:13
+#: src/Options.php:14
+msgid "Master CSS"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://oberonlai.blog"
+msgstr ""
+
+#. Description of the plugin
+msgid "Use the Master CSS right in the WordPress without any build step. Learn more about <a href=\"https://css.master.co\">Master CSS</a>."
+msgstr ""
+
+#. Author of the plugin
+msgid "Oberon Lai"
+msgstr ""
+
+#: src/Options.php:25
+msgid "General Settings"
+msgstr ""
+
+#: src/Options.php:26
+msgid "These are general settings for Master CSS"
+msgstr ""
+
+#: src/Options.php:35
+msgid "Enable Master CSS"
+msgstr ""
+
+#: src/Options.php:36
+msgid "You can enqueue in front end, admin page or both."
+msgstr ""
+
+#: src/Options.php:38
+msgid "Frontend"
+msgstr ""
+
+#: src/Options.php:39
+msgid "Admin"
+msgstr ""
+
+#: src/Options.php:48
+msgid "Enable Master CSS with nomral.css"
+msgstr ""
+
+#: src/Options.php:49
+msgid "You can enqueue with normal.css or not"
+msgstr ""
+
+#: src/Options.php:51
+msgid "No"
+msgstr ""
+
+#: src/Options.php:52
+msgid "Yes"
+msgstr ""
+
+#: src/Options.php:62
+msgid "Extend Classes"
+msgstr ""
+
+#. translators: 1: Site URL
+#: src/Options.php:64
+msgid "Customizing your Master CSS class. Pasting your classes here without brackets. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreffer\">Learn more</a>"
+msgstr ""
+
+#: src/Options.php:73
+msgid "Extend Colors"
+msgstr ""
+
+#. translators: 1: Site URL
+#: src/Options.php:75
+msgid "Customizing your Master CSS colors. Pasting your colors here without brackets. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreffer\">Learn more</a>"
+msgstr ""
+
+#: src/Options.php:84
+msgid "Extend Breakpoints"
+msgstr ""
+
+#. translators: 1: Site URL
+#: src/Options.php:86
+msgid "Customizing your Master CSS breakpoints. Pasting your breakpoints here without brackets. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreffer\">Learn more</a>"
+msgstr ""
+
+#: src/Options.php:95
+msgid "Extend Media Queries"
+msgstr ""
+
+#. translators: 1: Site URL
+#: src/Options.php:97
+msgid "Customizing your Master CSS media queries. Pasting your media queries here without brackets. <a href=\"%s-queries\" target=\"_blank\" rel=\"noopener noreffer\">Learn more</a>"
+msgstr ""
+
+#: src/Options.php:106
+msgid "Extend Color Schemes"
+msgstr ""
+
+#. translators: 1: Site URL
+#: src/Options.php:108
+msgid "Customizing your Master CSS color schemes. Pasting your color schemes here without brackets. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreffer\">Learn more</a>"
+msgstr ""
+
+#: src/Options.php:117
+msgid "Extend Values"
+msgstr ""
+
+#. translators: 1: Site URL
+#: src/Options.php:119
+msgid "Customizing your Master CSS values. Pasting your values here without brackets. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreffer\">Learn more</a>"
+msgstr ""
+
+#: src/Options.php:128
+msgid "Extend Semantics"
+msgstr ""
+
+#. translators: 1: Site URL
+#: src/Options.php:130
+msgid "Customizing your Master CSS semantics. Pasting your semantics here without brackets. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreffer\">Learn more</a>"
+msgstr ""
