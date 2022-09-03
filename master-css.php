@@ -4,7 +4,7 @@
  * Master CSS
  *
  * @link              https://oberonlai.blog
- * @since             0.0.1
+ * @since             0.0.2
  * @package           TWP
  *
  * @wordpress-plugin
@@ -22,7 +22,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'MSC_VERSION', '0.0.1' );
+define( 'MSC_VERSION', '0.0.2' );
 define( 'MSC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'MSC_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MSC_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );

@@ -31,9 +31,12 @@ class MasterCss {
 				}
 
 				if ( 'admin' === $key ) {
-					add_action( 'admin_enqueue_scripts', array( $this, 'enqueue' ), 10 );
-					add_action( 'admin_head', array( $this, 'set_init_maunal' ), 5 );
-					add_action( 'admin_head', array( $this, 'set_extend' ), 50 );
+					global $pagenow;
+					if ( 'post.php' === $pagenow && isset($_GET['post'])  ){
+						add_action( 'admin_enqueue_scripts', array( $this, 'enqueue' ), 10 );
+						add_action( 'admin_head', array( $this, 'set_init_maunal' ), 5 );
+						add_action( 'admin_head', array( $this, 'set_extend' ), 50 );
+					}
 				}
 			}
 		}
